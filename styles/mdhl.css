@@ -129,6 +129,7 @@ section {
     padding-left: 14px;
     margin: -12px;
     text-indent: 1rem;
+    padding-bottom: 10px;
 }
 
 .textA-container {
@@ -143,6 +144,58 @@ section {
     font-size: 17px;
 }
 
+.rules-container {
+    width: 100%;
+    margin-left: -50px;
+    margin-top: 5px;
+}
 
+.r-h3-container {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
 
+.r-h4-container {
+    padding-top: 0px;   
+    margin-bottom: 12px;
+}
+
+.r-olist  ::marker{
+    font-weight: bold;
+}
+
+.r-olist2 {
+    margin-left: -39px;
+    margin-top: 8px;
+    /* list-style-position: inside; */
+    list-style-type: lower-alpha;
+}
+
+.r-olist2  ::marker{
+    font-weight: bold;
+}
+
+.r-ulist {
+    list-style-position: inside;
+    list-style-type: circle;
+    margin-top: 8px;
+    margin-left: 40px;
+}
+
+.pr-oli-container {
+    font-size: 18px;
+    padding-left: 14px;
+    margin: -12px;
+    /* text-indent: 1rem; */
+    padding-bottom: 10px;
+    padding-top: 8px;
+}
+
+.r-li3-container {
+    font-size: 18px;
+    padding-left: 14px;
+    margin: -12px;
+    /* text-indent: 1rem; */
+    padding-bottom: 10px;
+}
 
