@@ -64,7 +64,7 @@ nav {
     padding-left: 10px;
 }
 
-li {
+.li-nav {
     padding: 30px 10px;
 }
 
@@ -118,6 +118,13 @@ section {
 }
 
 .pa-container {
+    font-size: 18px;
+    padding-left: 14px;
+    margin: -12px;
+    text-indent: 1rem;
+}
+
+.pr-container {
     font-size: 18px;
     padding-left: 14px;
     margin: -12px;
