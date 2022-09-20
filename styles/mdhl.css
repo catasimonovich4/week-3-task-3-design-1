@@ -1,0 +1,141 @@
+body {
+    font-family: sans-serif;
+    padding: 20px 30px 5px 30px;
+}
+
+header {
+    width: 100%;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 0px;
+    display: flex;
+    position: absolute;
+    top: -5px;
+    left: 50px;
+}
+
+.image-container {
+    background-image: url(../assets/design1_image1.jpg);
+    height: 30vh;
+    background-size: cover;
+    background-position-y: 80%;
+
+}
+
+.logo-container {
+    display: flex;
+    position: absolute;
+    right: 100px;
+    top: 185px;
+    background-color: black;
+}
+
+.logo {
+    width: 100px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.list-container {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+li {
+    padding: 30px 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    left: 300px;
+    top: 278px;
+}
+
+.HP-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    left: 300px;
+    top: 278px;
+    width: 100%;
+}
+
+
+.text-container {
+    margin-top: 7px;
+    margin-left: -40px;
+    width: 100%;
+}
+
+.h-p3-container {
+    width: 100%;
+}
+
+.h-container {
+    margin-top: 33px;
+}
+
+.hP1-container {
+    font-style: italic;
+}
+
+.hP2-container {
+    font-style: italic;
+    margin-top: 33px;
+}
+
+.p-container{
+    padding-left: 30px;
+    margin-top: -16px;
+    font-size: 17px;
+}
+
+.pa-container {
+    font-size: 18px;
+    padding-left: 14px;
+    margin: -12px;
+    text-indent: 1rem;
+}
+
+.textA-container {
+    margin-left: -90px;
+    width: 100%;
+    margin-top: 7px;
+}
+
+.textC-container {
+    margin-left: -80px;
+    margin-top: 9px;
+    font-size: 17px;
+}
+
+
+
+
