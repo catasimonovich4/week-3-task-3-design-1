@@ -48,6 +48,14 @@ h2 {
     color: white;
 }
 
+.title-span {
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    margin-left: -365px;
+    
+}
+
 main {
     display: flex;
     justify-content: space-between;
@@ -147,17 +155,11 @@ section {
 .rules-container {
     width: 100%;
     margin-left: -90px;
-    margin-top: -9px;
+    margin-top: 30px;
 }
 
-.r-h3-container {
-    margin-top: 35px;
-    margin-bottom: 35px;
-}
-
-.r-h4-container {
-    padding-top: 0px;   
-    margin-bottom: 12px;
+span {
+    font-weight: bold;
 }
 
 .r-olist  ::marker{
@@ -166,9 +168,10 @@ section {
 
 .r-olist2 {
     margin-left: -39px;
-    margin-top: 8px;
+    margin-top: -20px;
     /* list-style-position: inside; */
     list-style-type: lower-alpha;
+    margin-bottom: 25px;
 }
 
 .r-olist2  ::marker{
@@ -188,7 +191,7 @@ section {
     margin: -12px;
     /* text-indent: 1rem; */
     padding-bottom: 10px;
-    padding-top: 8px;
+    padding-top: 3px;
 }
 
 .r-li3-container {
@@ -197,5 +200,20 @@ section {
     margin: -12px;
     /* text-indent: 1rem; */
     padding-bottom: 10px;
+}
+
+.pr-ol-container {
+    font-size: 18px;
+    display: inline;
+}
+
+.pr2-ol-container {
+    font-size: 18px;
+    display: inline;
+    padding-top: 15px;
+}
+
+.prol-container {
+    padding-top: 15px;
 }
 
