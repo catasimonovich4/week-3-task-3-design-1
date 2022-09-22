@@ -5,6 +5,7 @@ body {
 
 header {
     width: 100%;
+    position: relative;
 }
 
 h1 {
@@ -12,8 +13,8 @@ h1 {
     margin-bottom: 0px;
     display: flex;
     position: absolute;
-    top: -5px;
-    left: 50px;
+    left: 0%;
+    top: -15%;
 }
 
 .image-container {
@@ -27,8 +28,8 @@ h1 {
 .logo-container {
     display: flex;
     position: absolute;
-    right: 100px;
-    top: 185px;
+    right: 5%;
+    top: 70%;
     background-color: black;
 }
 
@@ -58,12 +59,13 @@ h2 {
 main {
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 nav {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    width: 20%;
 }
 
 .list-container {
@@ -79,25 +81,16 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    position: absolute;
-    left: 300px;
-    top: 278px;
-}
-
-.HP-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    position: absolute;
-    left: 300px;
-    top: 278px;
     width: 100%;
+    
 }
 
+.game-info {
+    margin-top: 2%;
+}
 
 .text-container {
-    margin-top: 7px;
-    margin-left: -40px;
+    margin-top: -12%;
     width: 100%;
 }
 
@@ -140,21 +133,18 @@ section {
 }
 
 .textA-container {
-    margin-left: -90px;
     width: 100%;
-    margin-top: 7px;
+    margin-top: -4%;
 }
 
 .textC-container {
-    margin-left: -80px;
-    margin-top: 9px;
+    margin-top: -25%;
     font-size: 17px;
 }
 
 .rules-container {
     width: 100%;
-    margin-left: -90px;
-    margin-top: 30px;
+    margin-top: 3%;
 }
 
 span {
